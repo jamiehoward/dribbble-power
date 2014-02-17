@@ -1,0 +1,12 @@
+{
+	"manifest_version":2,
+	"name": "Dribbble PowerRank",
+	"version": "1.0",
+	"description": "A quick ranking for traction of Dribbble shots.",
+	"content_scripts": [
+	    {
+	    "matches": ["*://dribbble.com/*"],
+	    "js": ["jquery.js","background.js"]
+	    }
+	]
+}
